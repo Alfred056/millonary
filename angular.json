@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "millonay": {
+    "millonary": {
       "projectType": "application",
       "schematics": {},
       "root": "",
