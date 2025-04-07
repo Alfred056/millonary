@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/millonay",
+            "outputPath": "dist/millonary",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "millonay:build:production"
+              "browserTarget": "millonary:build:production"
             },
             "development": {
-              "browserTarget": "millonay:build:development"
+              "browserTarget": "millonary:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "millonay:build"
+            "browserTarget": "millonary:build"
           }
         },
         "test": {
